@@ -1,12 +1,12 @@
 ## Ruby入力補完辞書です。
 
-ファイル(ruby_metho_complete)を読ませて入力補完の単語数を増やします。
+ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
 
 neocompleteで入力補完辞書として使うとき(C:ドライブ直下)
 
 git clone https://github.com/takkii/ruby-dictionary3.git
 
-```vimscript
+```
 let s:neco_dicts_dir = 'C:/ruby-dictionary3/autoload/source'
 if isdirectory(s:neco_dicts_dir)
   let g:neocomplete#sources#dictionary#dictionaries = {
