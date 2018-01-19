@@ -6,6 +6,8 @@ neocompleteで入力補完辞書として使うとき(C:ドライブ直下)
 
 > git clone https://github.com/takkii/ruby-dictionary3.git
 
+.vimrcに追加する記述
+
 ```
 let s:neco_dicts_dir = 'C:/ruby-dictionary3/autoload/source'
 if isdirectory(s:neco_dicts_dir)
