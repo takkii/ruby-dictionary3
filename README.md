@@ -15,6 +15,12 @@ if isdirectory(s:neco_dicts_dir)
 endif
 ```
 
+>※ tanrakuとtanraku_logが補完リストにあります。
+
+>gem install tanraku のあと。
+
+>require 'tanraku' をして使ってください。
+
 こんな風になります
 
 ![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/image.jpg)
