@@ -4,7 +4,7 @@
 
 neocompleteで入力補完辞書として使うとき(C:ドライブ直下)
 
-git clone https://github.com/takkii/ruby-dictionary3.git
+> git clone https://github.com/takkii/ruby-dictionary3.git
 
 ```
 let s:neco_dicts_dir = 'C:/ruby-dictionary3/autoload/source'
