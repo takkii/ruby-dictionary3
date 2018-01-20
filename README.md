@@ -2,24 +2,28 @@
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
 
-neocompleteで入力補完辞書として使うとき(C:ドライブ直下)
+neocompleteで入力補完辞書として使うとき(deinで.vimフォルダ内repos)
 
 > git clone https://github.com/takkii/ruby-dictionary3.git
 
 .vimrcに追加する記述
 
 ```
-let s:neco_dicts_dir = 'C:/ruby-dictionary3/autoload/source'
-if isdirectory(s:neco_dicts_dir)
+
+call dein#add('takkii/ruby-dictionary3')
+
+let s:neco_dicts_dir = $HOME . '/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source'
+ if isdirectory(s:neco_dicts_dir)
   let g:neocomplete#sources#dictionary#dictionaries = {
   \   'ruby': s:neco_dicts_dir . '/ruby_method_complete'
   \ }
 endif
+
 ```
 
 >※ tanrakuとtanraku_logが補完リストにあります。
 
->gem install tanraku のあと。
+>gem install tanraku のあと、
 
 >require 'tanraku' をして使ってください。
 
