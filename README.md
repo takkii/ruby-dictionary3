@@ -12,10 +12,10 @@ neocompleteで入力補完辞書として使うとき(deinで.vimフォルダ内
 
 call dein#add('takkii/ruby-dictionary3')
 
-let s:neco_dicts_dir = $HOME . '/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source'
- if isdirectory(s:neco_dicts_dir)
+let s:neocomplete_dictionary_dir = $HOME . '/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source'
+ if isdirectory(s:neocomplete_dictionary_dir)
   let g:neocomplete#sources#dictionary#dictionaries = {
-  \   'ruby': s:neco_dicts_dir . '/ruby_method_complete'
+  \   'ruby': s:neocomplete_dictionary_dir . '/ruby_method_complete'
   \ }
 endif
 
