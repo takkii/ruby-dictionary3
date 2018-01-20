@@ -6,8 +6,6 @@ neocompleteで入力補完辞書として使うとき
 
 (deinでプラグイン管理、.vimフォルダにdeinを設置した例)
 
-> git clone https://github.com/takkii/ruby-dictionary3.git
-
 .vimrcに追加する記述
 
 ```
