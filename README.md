@@ -2,7 +2,9 @@
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
 
-neocompleteで入力補完辞書として使うとき(deinで.vimフォルダ内repos)
+neocompleteで入力補完辞書として使うとき
+
+(deinでプラグイン管理、.vimフォルダにdeinを設置した例)
 
 > git clone https://github.com/takkii/ruby-dictionary3.git
 
