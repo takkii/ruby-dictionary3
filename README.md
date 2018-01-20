@@ -2,9 +2,9 @@
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
 
-neocompleteで入力補完辞書として使うとき
+もし、neocompleteで入力補完辞書として使うときは、
 
-(deinでプラグイン管理、.vimフォルダにdeinを設置した例)
+>(deinでプラグイン管理、.vimフォルダにdeinを設置した例)
 
 .vimrcに追加する記述
 
@@ -23,9 +23,11 @@ endif
 
 >※ tanrakuとtanraku_logが補完リストにあります。
 
->gem install tanraku のあと、
+>gem install tanraku
 
->require 'tanraku' をして使ってください。
+>require 'tanraku'
+
+RubyGemsでtanrakuを導入後、require 'tanraku'を追加願います。
 
 こんな風になります
 
