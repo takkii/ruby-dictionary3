@@ -29,6 +29,12 @@ endif
 
 RubyGemsでtanrakuを導入後、require 'tanraku'を追加願います。
 
-こんな風になります
+Vimを起動して、インストールまたは更新します。
+
+> call dein#install()
+
+> call dein#update()
+
+入力補完画像、一例。
 
 ![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/image.jpg)
