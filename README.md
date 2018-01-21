@@ -2,6 +2,8 @@
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
 
+※ 使ってみて、neosnippetを設置または設定しない方がしっくりくるようです。
+
 もし、neocompleteで入力補完辞書として使うときは、
 
 >(deinでプラグイン管理、.vimフォルダにdeinを設置した例)
@@ -25,9 +27,11 @@ let g:neocomplete#sources#dictionary#dictionaries = {
 
 >require 'tanraku'
 
-RubyGemsでtanrakuを導入後、require 'tanraku'を追加願います。
+RubyGemsでtanrakuを導入後、require 'tanraku'をファイルの先頭に追加。
 
 Vimを起動して、インストールまたは更新します。
+
+※ Rubyの新バージョンがリリースされて、まだメソッドがないとき追加したかもしれません。
 
 > call dein#install()
 
