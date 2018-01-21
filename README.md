@@ -12,12 +12,10 @@
 
 call dein#add('takkii/ruby-dictionary3')
 
-let s:neocomplete_dictionary_dir = $HOME . '/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source'
- if isdirectory(s:neocomplete_dictionary_dir)
-  let g:neocomplete#sources#dictionary#dictionaries = {
-  \   'ruby': s:neocomplete_dictionary_dir . '/ruby_method_complete'
-  \ }
-endif
+let g:neocomplete#force_omni_input_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
+let g:neocomplete#sources#dictionary#dictionaries = {
+ \   'ruby': $HOME . '/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_complete',
+ \ }
 
 ```
 
