@@ -27,15 +27,15 @@ let g:neocomplete#sources#dictionary#dictionaries = {
 
 >require 'tanraku'
 
-RubyGemsでtanrakuを導入後、require 'tanraku'をファイルの先頭に追加。
-
 Vimを起動して、インストールまたは更新します。
 
 ※ Rubyの新バージョンがリリースされて、まだメソッドがないとき追加したかもしれません。
 
-> call dein#install()
+>:call dein#install()
 
-> call dein#update()
+>:call dein#update()
+
+単語は[D]と表示されます。サンプルをどうぞ。
 
 「入力補完画像」
 
