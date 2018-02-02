@@ -2,9 +2,7 @@
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
 
-※ 使ってみて、neosnippetを設置または設定しない方がしっくりくるようです。
-
-もし、neocompleteで入力補完辞書として使うときは、
+neocompleteで入力補完辞書として使うときは、
 
 >(deinでプラグイン管理、.vimフォルダにdeinを設置した例)
 
@@ -44,3 +42,7 @@ Vimを起動して、インストールまたは更新します。
 「入力補完動画」
 
 ![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/movie.gif)
+
+MITライセンスです。
+
+Author Takayuki Kamiyama.
