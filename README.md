@@ -37,6 +37,10 @@ Vimを起動して、インストールまたは更新します。
 
 > call dein#update()
 
-入力補完画像、一例。
+「入力補完画像」
 
 ![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/image.gif)
+
+「入力補完動画」
+
+![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/movie.gif)
