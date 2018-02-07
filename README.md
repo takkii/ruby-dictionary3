@@ -59,15 +59,17 @@ neocomplete + deopleteでは[D]と表示されます。
 
 「入力補完画像」
 
-neocomplete
+Vim8 + neocomplete
 
 ![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/image.gif)
 
 「入力補完動画」
 
-deoplete
+Vim8 + neocomplete
 
 ![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/movie.gif)
+
+neovim + deoplete
 
 ![deopleteで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/movie_deo.gif)
 
