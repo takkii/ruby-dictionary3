@@ -2,8 +2,6 @@
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
 
-neocomplete
-
 >(例 dein ~/.vim)
 
 vim8 + neocomplete
@@ -20,8 +18,6 @@ let g:neocomplete#sources#dictionary#dictionaries = {
  \ }
 
 ```
-
-deoplete
 
 >(例 dein ~/.config/nvim)
 
@@ -63,9 +59,13 @@ neocomplete + deopleteでは[D]と表示されます。
 
 「入力補完画像」
 
+neocomplete
+
 ![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/image.gif)
 
 「入力補完動画」
+
+deoplete
 
 ![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/movie.gif)
 
