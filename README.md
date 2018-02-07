@@ -2,7 +2,7 @@
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
 
-neocompleteで入力補完辞書として使うときは、
+neocomplete
 
 >(例 dein ~/.vim)
 
@@ -20,6 +20,8 @@ let g:neocomplete#sources#dictionary#dictionaries = {
  \ }
 
 ```
+
+deoplete
 
 >(例 dein ~/.config/nvim)
 
@@ -48,8 +50,6 @@ deopleteの参考サイト
 >require 'tanraku'
 
 Vimを起動して、インストールまたは更新します。
-
-※ Rubyの新バージョンがリリースされて、まだメソッドがないとき追加したかもしれません。
 
 >:call dein#install()
 
