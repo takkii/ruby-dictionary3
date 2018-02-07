@@ -4,9 +4,9 @@
 
 neocompleteで入力補完辞書として使うときは、
 
->(deinでプラグイン管理、.vimフォルダにdeinを設置した例)
+>(例 dein ~/.vim)
 
-.vimrcに追加する記述
+.vimrc
 
 ```
 
@@ -19,9 +19,11 @@ let g:neocomplete#sources#dictionary#dictionaries = {
 
 ```
 
-(deinで~/.config/nvimにdeinを設置した例)
+>(例 dein ~/.config/nvim)
 
 neovim + deoplete
+
+init.vim
 
 ```
 
@@ -51,7 +53,11 @@ Vimを起動して、インストールまたは更新します。
 
 >:call dein#update()
 
-単語は[D]と表示されます。サンプルをどうぞ。
+neocomplete + deopleteでは[D]と表示されます。
+
+※ deopleteは末尾の()内も表示されます。変更または削除してお使いください。
+
+サンプルをどうぞ。
 
 「入力補完画像」
 
@@ -60,6 +66,8 @@ Vimを起動して、インストールまたは更新します。
 「入力補完動画」
 
 ![ネオコンで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/movie.gif)
+
+![deopleteで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/movie_deo.gif)
 
 MITライセンスです。
 
