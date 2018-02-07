@@ -19,6 +19,24 @@ let g:neocomplete#sources#dictionary#dictionaries = {
 
 ```
 
+(deinで~/.config/nvimにdeinを設置した例)
+
+neovim + deoplete
+
+```
+
+call dein#add('takkii/ruby-dictionary3')
+
+setlocal dictionary+=~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_complete
+call deoplete#custom#source(
+   \ 'dictionary', 'matchers', ['matcher_head'])
+
+```
+
+deopleteの参考サイト
+
+[deoplete.txt](https://github.com/Shougo/deoplete.nvim/blob/master/doc/deoplete.txt)
+
 >※ tanrakuとtanraku_logが補完リストにあります。
 
 >gem install tanraku
