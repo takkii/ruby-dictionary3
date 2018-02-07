@@ -6,6 +6,8 @@ neocompleteで入力補完辞書として使うときは、
 
 >(例 dein ~/.vim)
 
+vim8 + neocomplete
+
 .vimrc
 
 ```
