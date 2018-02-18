@@ -33,11 +33,15 @@ public_constant
 freeze
 inspect
 deprecate_constant
+end
+Object
 private_constant
 const_missing
 singleton_class?
 include
 prepend
+module
+module_function
 module_eval
 remove_method
 class_eval
