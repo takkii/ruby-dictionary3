@@ -1275,3 +1275,34 @@ when (keyword)
 while (keyword)
 yield (keyword)
 __END__ (keyword)
+DRb::DRbIdConv
+DRb::DRbObject
+DRb::DRbServer
+DRb::DRbUnknown
+DRbIdConv
+DRb::DRbIdConv
+DRbObject
+DRb::DRbObject
+DRb::DRbProtocol
+DRb::DRbUndumped
+DRbUndumped
+DRb::DRbUndumped
+DRb::DRbError
+DRb::DRbBadScheme
+DRb::DRbBadURI
+DRb::DRbConnError
+DRb::DRbRemoteError
+DRb::DRbServerNotFound
+DRb::DRbUnknownError
+DRb::DRbUnknown
+drb/acl
+drb/extserv
+DRb::ExtServ
+drb/extservm
+DRb::ExtServManager
+drb/gw
+drb/observer
+DRb::DRbObservable
+drb/ssl
+drb/timeridconv
+drb/unix
