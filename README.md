@@ -1,3 +1,5 @@
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+
 ## Ruby入力補完辞書です。
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
