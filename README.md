@@ -77,14 +77,16 @@ neovim + deoplete
 
 Emacs + auto-complete
 
-git clone https://github.com/takkii/ruby-dictionary3.git
+> git clone https://github.com/takkii/ruby-dictionary3.git
 
 ```lisp
 (require 'auto-complete-config)
-;; (add-to-list 'ac-dictionary-directories "ruby-dictionary3を設置した場所")
+;; PATH : ruby-dictionary3 フォルダ設置場所指定
 (add-to-list 'ac-dictionary-directories "~/ruby-dictionary3/autoload/source/")
 (ac-config-default)
 (setq ac-use-menu-map t)
 ```
+
+![auto-completeで入力補完辞書](https://github.com/takkii/ruby-dictionary3/blob/master/images/auto-complete.gif)
 
 Author Takayuki Kamiyama.
