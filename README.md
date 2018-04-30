@@ -75,6 +75,16 @@ neovim + deoplete
 
 ![deopleteで辞書候補](https://github.com/takkii/ruby-dictionary3/blob/master/images/movie_deo.gif)
 
-MITライセンスです。
+Emacs + auto-complete
+
+git clone https://github.com/takkii/ruby-dictionary3.git
+
+```lisp
+(require 'auto-complete-config)
+;; (add-to-list 'ac-dictionary-directories "ruby-dictionary3を設置した場所")
+(add-to-list 'ac-dictionary-directories "~/ruby-dictionary3/autoload/source/")
+(ac-config-default)
+(setq ac-use-menu-map t)
+```
 
 Author Takayuki Kamiyama.
