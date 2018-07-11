@@ -1,4 +1,4 @@
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/ruby-dictionary3.svg?style=flat)](GitHub)
 
 ## Ruby入力補完辞書です。
 
