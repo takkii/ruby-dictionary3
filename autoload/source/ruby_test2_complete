@@ -11,4 +11,6 @@ assert_not_same
 assert_nothing_raised
 assert_nothing_thrown
 assert_raise
-build_message mu_pp
+build_message
+mu_pp
+# frozen_string_literal: true
