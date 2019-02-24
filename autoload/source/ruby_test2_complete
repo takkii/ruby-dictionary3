@@ -13,4 +13,4 @@ assert_nothing_thrown
 assert_raise
 build_message
 mu_pp
-# frozen_string_literal: true
+frozen_string_literal: true
