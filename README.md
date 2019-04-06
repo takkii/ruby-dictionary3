@@ -1,5 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![GitHub release](https://img.shields.io/github/release/takkii/ruby-dictionary3.svg?style=flat)](GitHub)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/ruby-dictionary3.svg?style=flat)](GitHub)
 
+<div align="center"><img src="https://github.com/takkii/Bignyanco/blob/master/images/python_ruby.gif" alt="PythonとRuby" title="logo"></div>
+
 ## Ruby入力補完辞書です。
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
