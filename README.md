@@ -6,6 +6,9 @@
 
 ファイル(ruby_method_complete)を読ませて入力補完の単語数を増やします。
 
+
+### 入力補完辞書としてのバージョンは1.2.0より前を使ってください。 > 1.1.x ~
+
 >(例 dein ~/.vim)
 
 vim8 + neocomplete
@@ -18,7 +21,7 @@ call dein#add('takkii/ruby-dictionary3')
 
 let g:neocomplete#force_omni_input_patterns.ruby = '[^. *\t]\.\w*\|\h\w*::'
 let g:neocomplete#sources#dictionary#dictionaries = {
- \   'ruby': $HOME . '/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_complete',
+ \   'ruby': $HOME . '/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_neocomplete',
  \ }
 
 ```
