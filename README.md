@@ -43,11 +43,17 @@ deopleteの参考サイト
 
 [deoplete.txt](https://github.com/Shougo/deoplete.nvim/blob/master/doc/deoplete.txt)
 
->※ tanrakuとtanraku_logが補完リストにあります。
+```ruby
+※ tanrakuとtanraku_logが補完リストにあります。
 
->gem install tanraku
+gem install tanraku
 
->require 'tanraku'
+require 'tanraku'
+```
+
+ruby_method.txt
+
+> 秀丸、MIFES、EmeditorなどのWindowsテキストエディタで補完辞書として指定できます。
 
 Vimを起動して、インストールまたは更新します。
 
