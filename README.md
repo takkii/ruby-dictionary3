@@ -12,7 +12,7 @@ vim8 + neocomplete
 
 .vimrc
 
-```
+```vimL
 
 call dein#add('takkii/ruby-dictionary3')
 
@@ -29,11 +29,11 @@ neovim + deoplete
 
 init.vim
 
-```
+```vimL
 
 call dein#add('takkii/ruby-dictionary3')
 
-setlocal dictionary+=~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_complete
+setlocal dictionary+=~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete
 call deoplete#custom#source(
  \ 'dictionary', 'ruby', ['[^. *\t]\.\w*\|\h\w*::'])
 
