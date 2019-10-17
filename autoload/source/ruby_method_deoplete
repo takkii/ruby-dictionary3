@@ -2209,6 +2209,7 @@ onkeydown
 onkeyup
 tanraku
 tanraku_log
+tanraku_exit
 Minitest::Reporters::DefaultReporter
 Minitest::Reporters::RubyMineReporter
 Minitest::Reporters::JUnitReporter
