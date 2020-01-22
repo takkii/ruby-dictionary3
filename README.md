@@ -97,4 +97,29 @@ Emacs + auto-complete
 
 ![auto-completeで入力補完辞書](https://github.com/takkii/ruby-dictionary3/blob/master/images/auto-complete.gif)
 
+[ company-dict ]
+
+```markdown
+;(require 'company-dict)
+;; Where to look for dictionary files. Default is ~/.emacs.d/dict
+;;(setq company-dict-dir (concat user-emacs-directory "dict/ruby-dictionary3/autoload/source/"))
+;; Optional: if you want it available everywhere
+;;(add-to-list 'company-backends 'company-dict)
+```
+
+[ 設置 ]
+
+```markdown
+mkdir ~/.emacs.d/dict
+cd ~/.emacs.d/dict
+git clone https://github.com/takkii/ruby-dictionary3.git
+```
+
+[ install ]
+
+```markdown
+emacs
+package-install company-dict
+```
+
 Author Takayuki Kamiyama.
